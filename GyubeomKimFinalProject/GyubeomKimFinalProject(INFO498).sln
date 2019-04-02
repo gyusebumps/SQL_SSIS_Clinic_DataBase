@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{0A8EACF5-7C78-48BD-9F58-EC783BB325F3}"
+	ProjectSection(SolutionItems) = preProject
+		Info 498 Final\Databases\DoctorsSchedules.mdf = Info 498 Final\Databases\DoctorsSchedules.mdf
+		Info 498 Final\Databases\Patients.mdf = Info 498 Final\Databases\Patients.mdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataFiles", "DataFiles", "{8BBC0602-10E7-4667-A1AB-CEBFCE7782F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{6D6CF89F-56BD-4999-A3F7-23F11AFCFA7C}"
+	ProjectSection(SolutionItems) = preProject
+		Info 498 Final\Documents\BISolutionWorksheets.xlsx = Info 498 Final\Documents\BISolutionWorksheets.xlsx
+		Info 498 Final\Documents\Final Checklist.xlsx = Info 498 Final\Documents\Final Checklist.xlsx
+		Info 498 Final\Documents\Final.pptx = Info 498 Final\Documents\Final.pptx
+		Info 498 Final\Documents\FinalProject(INFO498).docx = Info 498 Final\Documents\FinalProject(INFO498).docx
+		Info 498 Final\Documents\FinalProjectLessonLearned.docx = Info 498 Final\Documents\FinalProjectLessonLearned.docx
+		Info 498 Final\Documents\INFO 498 Final.doc = Info 498 Final\Documents\INFO 498 Final.doc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLCode", "SQLCode", "{6536A858-A80E-4CEE-9DA5-66BA341F2378}"
+	ProjectSection(SolutionItems) = preProject
+		Info 498 Final\SQLCode\1 - File Processing.sql = Info 498 Final\SQLCode\1 - File Processing.sql
+		Info 498 Final\SQLCode\2 - Create DWClinicReportData.sql = Info 498 Final\SQLCode\2 - Create DWClinicReportData.sql
+		Info 498 Final\SQLCode\3 - Load ETL Code.sql = Info 498 Final\SQLCode\3 - Load ETL Code.sql
+		Info 498 Final\SQLCode\4 - Backup Automation.sql = Info 498 Final\SQLCode\4 - Backup Automation.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bellevue", "Bellevue", "{36EC0F83-A542-416F-B9EE-A65E9E44ADDE}"
+	ProjectSection(SolutionItems) = preProject
+		Info 498 Final\DataFiles\Bellevue\20100102Visits.csv = Info 498 Final\DataFiles\Bellevue\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kirkland", "Kirkland", "{5E9F7E39-03D4-4181-B793-878F105B8AE0}"
+	ProjectSection(SolutionItems) = preProject
+		Info 498 Final\DataFiles\Kirkland\20100102Visits.csv = Info 498 Final\DataFiles\Kirkland\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redmond", "Redmond", "{34B255F7-DE73-41D6-81D8-6B3EBF8C8C6A}"
+	ProjectSection(SolutionItems) = preProject
+		Info 498 Final\DataFiles\Redmond\20100102Visits.csv = Info 498 Final\DataFiles\Redmond\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "GyubeomKimInfo498FIinal", "GyubeomKimInfo498FIinal\GyubeomKimInfo498FIinal.dtproj", "{787CA31B-FD92-43AA-B82B-BC79603E35E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{787CA31B-FD92-43AA-B82B-BC79603E35E4}.Development|Default.ActiveCfg = Development
+		{787CA31B-FD92-43AA-B82B-BC79603E35E4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36EC0F83-A542-416F-B9EE-A65E9E44ADDE} = {8BBC0602-10E7-4667-A1AB-CEBFCE7782F5}
+		{5E9F7E39-03D4-4181-B793-878F105B8AE0} = {8BBC0602-10E7-4667-A1AB-CEBFCE7782F5}
+		{34B255F7-DE73-41D6-81D8-6B3EBF8C8C6A} = {8BBC0602-10E7-4667-A1AB-CEBFCE7782F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AEDD454-C2BD-4514-9453-271860000685}
+	EndGlobalSection
+EndGlobal
