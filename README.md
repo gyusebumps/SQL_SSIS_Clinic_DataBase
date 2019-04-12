@@ -1,4 +1,4 @@
-# SQL_SSIS_Clinic_DataBase
+# SQL_ETL_Solution_For_Clinic_DataBase
 
 Author : Gyubeom Kim
 
